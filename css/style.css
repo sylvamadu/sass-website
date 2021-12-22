@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Mulish', sans-serif;
+}
+
+header {
+  text-align: center;
+  margin: 3em auto;
+}
+
+header .art {
+  border-radius: 1em;
+  color: white;
+  background-color: #673C9B;
+  padding: .4em;
+}
+
+header h2 {
+  margin: .6em 0;
+  color: #191b26;
+}
+
+header p {
+  width: 40%;
+  line-height: 1.5;
+  margin: 0 auto;
+  color: #9459db;
+}
+
+main {
+  width: 80%;
+  margin: auto;
+  height: 350px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2em;
+}
+
+main .item1 {
+  box-shadow: 2px 2px 2px 2px #f7f1f1;
+  border-radius: .8em;
+  position: relative;
+  grid-column: 1/3;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.856), rgba(0, 0, 0, 0.452)), url("/dist//img//image-plane.jpg") center center;
+  background-size: cover;
+}
+
+main .item1 p {
+  position: absolute;
+  font-size: 1.6em;
+  top: 65%;
+  left: 1em;
+  right: 45%;
+  color: white;
+  line-height: 1.5;
+}
+
+main .item2 {
+  border-radius: .8em;
+  box-shadow: 2px 2px 2px 2px #f7f1f1;
+}
+
+main .item2 img {
+  width: 100%;
+  height: 180px;
+  border-top-left-radius: .8em;
+  border-top-right-radius: .8em;
+}
+
+main .item2 .content {
+  padding: 1em;
+}
+
+main .item2 .content h3 {
+  color: #191b26;
+}
+
+main .item2 .content p {
+  margin-top: .6em;
+  line-height: 1.3;
+}
+
+footer {
+  text-align: center;
+  margin-top: 1em;
+}
+
+footer button {
+  border-radius: 1em;
+  color: white;
+  background-color: #673C9B;
+  padding: 1em;
+  border: none;
+}
+/*# sourceMappingURL=style.css.map */
